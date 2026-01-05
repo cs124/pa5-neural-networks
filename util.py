@@ -385,7 +385,7 @@ def check_examples_to_array(examples_to_array_fn: Callable,
         tolerance (float): Tolerance for equality comparison of the output
                             with the expected output.
     """
-    test_example = ["i", "loved", "the", "food", "it", "was", "fantastic"]
+    test_example = ["i", "loved", "the", "non_existant_word", "food", "it", "was", "fantastic"]
 
     test_outputs = {
         mode: examples_to_array_fn([test_example], embeddings, mode=mode) for
@@ -394,14 +394,14 @@ def check_examples_to_array(examples_to_array_fn: Callable,
 
     correct_outputs = {
         'mean': np.array(
-            [[3.2959256e-01, 7.3754288e-02, -3.1452471e-01, -2.7855855e-01,
-              6.1334139e-01, -8.3927706e-02, -6.3862854e-01, -2.5314281e-02]]),
+            [[0.29803967, 0.04200414, -0.28900403, -0.2646109,
+              0.5288827, -0.06764147, -0.54383063, -0.02759279]]),
         'sum':  np.array(
-            [[2.3071480e+00, 5.1628000e-01, -2.2016730e+00, -1.9499099e+00,
-              4.2933898e+00, -5.8749396e-01, -4.4703999e+00, -1.7719996e-01]]),
+            [[2.3843174, 0.3360331, -2.3120322, -2.116887,
+              4.2310615, -0.54113173, -4.350645, -0.22074229,]]),
         'max':  np.array(
-            [[0.61183, 0.66826, -0.082073, 0.1217, 0.88331, 0.39783,
-              -0.21684, 0.66537]])
+            [[0.61183, 0.66826, -0.082073, 0.1217, 
+              0.88331, 0.39783, 0.11975443, 0.66537]])
     }
 
     for mode, output in test_outputs.items():
