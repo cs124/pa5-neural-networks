@@ -1,4 +1,4 @@
-#  Programming Assignment 6 - Neural Networks
+#  Programming Assignment 5 - Neural Networks
   
 # # Getting the Assignment
   
@@ -7,15 +7,15 @@
 0. Open a terminal (terminal for macOS and Linux, 
    Ubuntu for Windows for Windows).
 
-1. Clone the git repository for pa6 in a location of your choice:
+1. Clone the git repository for pa5 in a location of your choice:
       
-        git clone https://github.com/cs124/pa6-neural-networks.git
+        git clone https://github.com/cs124/pa5-neural-networks.git
    
 2. Enter the project root directory and activate your cs124 conda environment 
    (you should have  already created this as part of pa0. If not, please go 
    back and follow the instructions there): 
    
-        cd pa6-neural-networks
+        cd pa5-neural-networks
         conda activate cs124
    
     You should now see `(cs124)` in front of your shell prompt. 
@@ -29,7 +29,7 @@
     the terminal output should contain a URL you can use to open the
     notebook in a browser of your choice.
 5. From the Jupyter notebook file explorer window that opens, click on the
-pa6.ipynb file to open it.
+pa5.ipynb file to open it.
 
 ### Google Colaboratory
 
@@ -40,13 +40,13 @@ pa6.ipynb file to open it.
 2. Now go to File->Open Notebook. Go to the GitHub tab. It will ask you to log 
    in to your GitHub account. Once you've done that, copy and paste 
    the URL: 
-   https://github.com/cs124/pa6-neural-networks into the search box and hit enter. 
+   https://github.com/cs124/pa5-neural-networks into the search box and hit enter. 
    It should show:
    
-            Repository: cs124/pa6-neural-networks
+            Repository: cs124/pa5-neural-networks
             Branch:  Master
 
-   Click on pa6.ipynb below to load the notebook.
+   Click on pa5.ipynb below to load the notebook.
       
 
 ## [NOT RECOMMENDED] - Rice/Myth
@@ -81,15 +81,15 @@ to use as an SSH client. Install and run it.
    You will also likely be asked to authenticate using 
    2-factor authentication.
 
-2. Clone the git repository for pa6 in a location of your choice:
+2. Clone the git repository for pa5 in a location of your choice:
       
-        git clone https://github.com/cs124/pa6-neural-networks.git
+        git clone https://github.com/cs124/pa5-neural-networks.git
    
 3. Enter the project root directory and activate your cs124 conda environment 
    (you should have already created this as part of pa0. 
    If not, please go back and follow the instructions there): 
    
-        cd pa6-neural-networks
+        cd pa5-neural-networks
         conda activate cs124
 
 4. Start up your jupyter notebook server without a browser.
@@ -138,7 +138,7 @@ to use as an SSH client. Install and run it.
 1. You can run the cell at the bottom of the Jupyter notebook to zip up your
 solution for you. It should generate a zip file `submission.zip`.
    
-2. Upload the zip file as your solution to the pa6 assignment in 
+2. Upload the zip file as your solution to the pa5 assignment in 
    Gradescope (http://www.gradescope.com).
 
 ## Ubuntu for Windows
@@ -156,7 +156,7 @@ solution for you. It should generate a zip file `submission.zip`.
    
         cp /path/to/submission.zip /mnt/c/Users/[your Windows username]/Desktop
 
-3. Upload the zip file as your solution to the pa6 assignment in 
+3. Upload the zip file as your solution to the pa5 assignment in 
    Gradescope (http://www.gradescope.com).
 
 ## Google Colaboratory
@@ -166,14 +166,14 @@ your notebook file to your local machine.
 2. If your solution required any extra files, make sure they were located in
 deps/. Go to the file explorer on the left-hand side and download
 those as well.
-3. Once you have pa6.ipynb and any deps files you need saved locally,
+3. Once you have pa5.ipynb and any deps files you need saved locally,
 create a zip file (either from your OS's file explorer or the terminal), making
 sure that it has the following structure:
    
         deps/
-        pa6.ipynb
+        pa5.ipynb
 
-4. Upload the zip file as your solution to the pa6 assignment in 
+4. Upload the zip file as your solution to the pa5 assignment in 
    Gradescope (http://www.gradescope.com).
 
 ## Rice/Myth
@@ -207,5 +207,5 @@ local machine.
     to download the file from Rice/Myth to your local machine. You should now
    be able to access the file locally at c:\temp\submission.zip
    
-3. Upload the zip file as your solution to the pa6 assignment in 
+3. Upload the zip file as your solution to the pa5 assignment in 
    Gradescope (http://www.gradescope.com).
